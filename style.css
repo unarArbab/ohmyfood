@@ -1,0 +1,12 @@
+*,
+::before
+::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+    font-family: "roboto", sans-serif;
+}
+header{
+    font-family: "Shrikhand", cursive;
+}
