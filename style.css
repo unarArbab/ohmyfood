@@ -4,9 +4,111 @@
     box-sizing: border-box;
 }
 body{
-    background-color: burlywood;
+    margin: 0;   
     font-family: "roboto", sans-serif;
 }
+/* HEADER */
 header{
+  
+    text-align: center;
     font-family: "Shrikhand", cursive;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.24);
+   margin:0;
+   padding: 4px 0px 4px 0px;
+   position: relative;
+   }
+     /* MISE RN PAGE LAOCALISATION ET OBJET DE SITE*/    
+   main .localisation{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 3px;  
+    padding: 0.5;
+      
+   }
+   
+   
+   main .localisation p {
+       display: flex;
+      justify-content: center;
+     width: 100%;
+     height: 60px; 
+    background-color:whitesmoke;    
+    padding:0.5rem;  
 }
+   main .localisation i{
+       font-weight: 900;
+             padding: 6px; 
+             font-size: 1.5rem;           
+       
+   }
+   .recherche{
+       text-align: center;
+   }
+   .cliché_principale{
+       margin: 2rem;
+      text-align: center;
+       width: 100%;  
+      
+    align-content: center;   
+}
+
+ .recherche button {
+   
+align-content: center;
+    
+    color:azure;
+    font-size: 20px; 
+    font-weight: 275; 
+   padding:16px 30px ;
+   border:none ;
+   border-radius:25px ;
+   background-image: linear-gradient(to top, rgb(132, 0, 255), rgb(255, 0, 191));
+   box-shadow: 2px 1px 12px -3px #000000  ;
+   transition-duration: 0.25s;
+   transition: transform 200ms;
+   
+
+}
+ button:hover{
+    transform: scale(1.02);
+    opacity: 0.9;
+
+}
+/* MISE EN FONCTIONNEMENT DE SITE */
+
+.relage{
+       margin-top: 5px;
+       
+      
+      
+   }
+   .relage h2{
+       padding: 8px;
+   }
+   .relage  li{
+       background-color: rgb(209, 209, 201);
+      
+      flex-grow: 1;
+       padding-top: 15px;
+       padding-left: 1%;
+       padding-right: 1%;
+       padding-bottom: 15px;
+       margin: .5rem 1rem;
+       border-radius: 25px;
+       box-shadow: 2px 1px 12px -3px #000000  ;
+
+   }
+   .relage ol{
+       display: flex;
+       flex-wrap: wrap;
+     
+       
+   }
+   .relage  li:hover{
+    transform: scale(1.02);
+    opacity: 0.9;
+   }
+  
+   
